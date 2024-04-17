@@ -10,3 +10,25 @@
 // [“Hello”, “2”, “world”, “:-)”] → [“2”, “:-)”]
 // [“1234”, “1567”, “-2”, “computer science”] → [“-2”]
 // [“Russia”, “Denmark”, “Kazan”] → []
+
+int size = 5;
+// Console.Write("Укажите размер архива ");
+// size = Convert.ToInt32(Console.ReadLine());
+string[] CreateArray (int length)
+{
+    string[] array = new string[length];
+    for (int i = 0; i < length; i++)
+    {
+        array[i] = Console.ReadLine();
+    }
+    return array;
+}
+Console.WriteLine ("Задайте элементы массива: ");
+string[] strings = CreateArray (size);
+string[] strings = {"Hello", "2", "word","Sun", "45"};
+Console.WriteLine($"Массив: [ {string.Join("; ", strings)} ]");
+int count = GetCount(strings);
+string[] result = GetResult(strings, count);
+Console.WriteLine($"Массив: [ {string.Join("; ", result)} ]");
+                
+
