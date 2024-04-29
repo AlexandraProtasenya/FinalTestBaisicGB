@@ -1,0 +1,15 @@
+C:\Users\Bu\Desktop\CSHarp\FinalTest\obj\Debug\net8.0\FinalTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bu\Desktop\CSHarp\FinalTest\obj\Debug\net8.0\FinalTest.AssemblyInfoInputs.cache
+C:\Users\Bu\Desktop\CSHarp\FinalTest\obj\Debug\net8.0\FinalTest.AssemblyInfo.cs
+C:\Users\Bu\Desktop\CSHarp\FinalTest\obj\Debug\net8.0\FinalTest.csproj.CoreCompileInputs.cache
+C:\Users\Bu\Desktop\CSHarp\FinalTest\obj\Debug\net8.0\FinalTest.sourcelink.json
+C:\Users\Bu\Desktop\CSHarp\FinalTest\bin\Debug\net8.0\FinalTest.exe
+C:\Users\Bu\Desktop\CSHarp\FinalTest\bin\Debug\net8.0\FinalTest.deps.json
+C:\Users\Bu\Desktop\CSHarp\FinalTest\bin\Debug\net8.0\FinalTest.runtimeconfig.json
+C:\Users\Bu\Desktop\CSHarp\FinalTest\bin\Debug\net8.0\FinalTest.dll
+C:\Users\Bu\Desktop\CSHarp\FinalTest\bin\Debug\net8.0\FinalTest.pdb
+C:\Users\Bu\Desktop\CSHarp\FinalTest\obj\Debug\net8.0\FinalTest.dll
+C:\Users\Bu\Desktop\CSHarp\FinalTest\obj\Debug\net8.0\refint\FinalTest.dll
+C:\Users\Bu\Desktop\CSHarp\FinalTest\obj\Debug\net8.0\FinalTest.pdb
+C:\Users\Bu\Desktop\CSHarp\FinalTest\obj\Debug\net8.0\FinalTest.genruntimeconfig.cache
+C:\Users\Bu\Desktop\CSHarp\FinalTest\obj\Debug\net8.0\ref\FinalTest.dll

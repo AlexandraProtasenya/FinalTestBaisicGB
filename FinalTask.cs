@@ -23,12 +23,28 @@ string[] CreateArray (int length)
     }
     return array;
 }
+
+int GetCount (string[] array)
+{
+    int count = 0;
+    for (int i = 0; i < array.Length; i++)
+    {
+        if (array[i].Length < 4)
+        {
+            count++;
+        }
+    }
+    return count;
+}
+
+
+
 Console.WriteLine ("Задайте элементы массива: ");
-string[] strings = CreateArray (size);
+// string[] strings = CreateArray (size);
 string[] strings = {"Hello", "2", "word","Sun", "45"};
 Console.WriteLine($"Массив: [ {string.Join("; ", strings)} ]");
 int count = GetCount(strings);
 string[] result = GetResult(strings, count);
 Console.WriteLine($"Массив: [ {string.Join("; ", result)} ]");
-                
+// Console.WriteLine(count);
 
