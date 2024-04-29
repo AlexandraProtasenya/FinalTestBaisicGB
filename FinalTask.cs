@@ -11,18 +11,18 @@
 // [“1234”, “1567”, “-2”, “computer science”] → [“-2”]
 // [“Russia”, “Denmark”, “Kazan”] → []
 
-int size = 5;
+// int size = 5;
 // Console.Write("Укажите размер архива ");
 // size = Convert.ToInt32(Console.ReadLine());
-string[] CreateArray (int length)
-{
-    string[] array = new string[length];
-    for (int i = 0; i < length; i++)
-    {
-        array[i] = Console.ReadLine();
-    }
-    return array;
-}
+// string[] CreateArray (int length)
+// {
+//     string[] array = new string[length];
+//     for (int i = 0; i < length; i++)
+//     {
+//         array[i] = Console.ReadLine();
+//     }
+//     return array;
+// }
 
 int GetCount (string[] array)
 {
@@ -37,7 +37,24 @@ int GetCount (string[] array)
     return count;
 }
 
-
+string[] GetResult (string[] array, int count)
+{
+    string[] result = new string[count];
+    int mark = 0;
+    for (int i = 0; i < result.Length; i++)
+    {
+        for (int j = mark; j < array.Length; j++)
+        {
+            if (array[j].Length < 4)
+            {
+                result[i] = array[j];
+                mark = j + 1;
+                break;
+            }
+        }
+    }
+    return result;
+}
 
 Console.WriteLine ("Задайте элементы массива: ");
 // string[] strings = CreateArray (size);
@@ -45,6 +62,5 @@ string[] strings = {"Hello", "2", "word","Sun", "45"};
 Console.WriteLine($"Массив: [ {string.Join("; ", strings)} ]");
 int count = GetCount(strings);
 string[] result = GetResult(strings, count);
-Console.WriteLine($"Массив: [ {string.Join("; ", result)} ]");
 // Console.WriteLine(count);
-
+Console.WriteLine($"результат: [ {string.Join("; ", result)} ]");
